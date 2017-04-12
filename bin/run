@@ -30,6 +30,7 @@ dh dh.pem
 keepalive 10 60
 persist-key
 persist-tun
+ifconfig-pool-persist ipp.txt
 push "dhcp-option DNS 8.8.8.8"
 push "dhcp-option DNS 8.8.4.4"
 
